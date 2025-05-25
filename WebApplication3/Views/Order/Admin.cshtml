@@ -1,0 +1,76 @@
+@model IEnumerable<WebApplication3.Models.Order>
+
+@{
+    ViewData["Title"] = "Manage Orders";
+    bool isAdmin = ViewBag.IsAdmin ?? false;
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Manage Orders</h1>
+
+    @if (isAdmin)
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Date</th>
+                        <th>Total Amount</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.Id</td>
+                            <td>@order.OrderDate.ToString("MM/dd/yyyy")</td>
+                            <td>$@order.TotalAmount.ToString("F2")</td>
+                            <td>
+                                <span class="badge badge-@(order.Status.ToLower() == "completed" ? "success" : "warning")">
+                                    @order.Status
+                                </span>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                                <a href="#" class="btn btn-sm btn-success">Update Status</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            Access denied. You must be an admin to view this page.
+        </div>
+    }
+</div>
+
+<style>
+    .badge {
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+
+    .badge-success {
+        background-color: #28a745;
+    }
+
+    .badge-warning {
+        background-color: #ffc107;
+        color: #000;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+    .table th {
+        border-top: none;
+    }
+</style> 

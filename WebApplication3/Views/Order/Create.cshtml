@@ -1,0 +1,109 @@
+@model WebApplication3.Models.Order
+
+@{
+    ViewData["Title"] = "Create Order";
+    var products = ViewBag.Products as List<WebApplication3.Models.Product>;
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Create Order</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Order Items</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="orderItems">
+                            <div class="order-item mb-3">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Product</label>
+                                        <select name="OrderItems[0].ProductId" class="form-select product-select">
+                                            <option value="">Select a product</option>
+                                            @foreach (var product in products)
+                                            {
+                                                <option value="@product.Id" data-price="@product.Price">@product.Name - $@product.Price.ToString("F2")</option>
+                                            }
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label class="form-label">Quantity</label>
+                                        <input type="number" name="OrderItems[0].Quantity" class="form-control quantity" min="1" value="1">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label class="form-label">Price</label>
+                                        <input type="text" class="form-control item-price" readonly>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="addItem">Add Another Item</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Order Details</h5>
+                    </div>
+                    <div class="card-body">
+
+                        <div class="form-group mb-3">
+                            <label asp-for="DeliveryAddress" class="control-label"></label>
+                            <input asp-for="DeliveryAddress" class="form-control" />
+                            <span asp-validation-for="DeliveryAddress" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Notes" class="control-label"></label>
+                            <textarea asp-for="Notes" class="form-control"></textarea>
+                            <span asp-validation-for="Notes" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Place Order</button>
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-secondary">Back to Menu</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        $(document).ready(function() {
+            let itemCount = 1;
+
+            $('#addItem').click(function() {
+                const newItem = $('.order-item:first').clone();
+                newItem.find('select').attr('name', `OrderItems[${itemCount}].ProductId`);
+                newItem.find('input[type="number"]').attr('name', `OrderItems[${itemCount}].Quantity`).val(1);
+                newItem.find('.item-price').val('');
+                $('#orderItems').append(newItem);
+                itemCount++;
+            });
+
+            $(document).on('change', '.product-select', function() {
+                const selectedOption = $(this).find('option:selected');
+                const price = selectedOption.data('price');
+                const quantity = $(this).closest('.order-item').find('.quantity').val();
+                $(this).closest('.order-item').find('.item-price').val('$' + (price * quantity).toFixed(2));
+            });
+
+            $(document).on('change', '.quantity', function() {
+                const productSelect = $(this).closest('.order-item').find('.product-select');
+                const selectedOption = productSelect.find('option:selected');
+                const price = selectedOption.data('price');
+                $(this).closest('.order-item').find('.item-price').val('$' + (price * $(this).val()).toFixed(2));
+            });
+        });
+    </script>
+} 

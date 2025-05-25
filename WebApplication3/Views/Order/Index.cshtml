@@ -1,0 +1,104 @@
+@model IEnumerable<WebApplication3.Models.Order>
+
+@{
+    ViewData["Title"] = "My Orders";
+    bool isAdmin = ViewBag.IsAdmin ?? false;
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">My Orders</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var order in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">Order #@order.Id</h5>
+                            <small class="text-muted">@order.OrderDate.ToString("MM/dd/yyyy")</small>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Item</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in order.OrderItems)
+                                        {
+                                            <tr>
+                                                <td>@item.Product.Name</td>
+                                                <td>@item.Quantity</td>
+                                                <td>$@item.UnitPrice.ToString("F2")</td>
+                                                <td>$@((item.Quantity * item.UnitPrice).ToString("F2"))</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                                            <td><strong>$@order.TotalAmount.ToString("F2")</strong></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <div class="mt-3">
+                                <p><strong>Delivery Address:</strong> @order.DeliveryAddress</p>
+                                <span class="badge badge-@(order.Status.ToLower() == "completed" ? "success" : "warning")">
+                                    @order.Status
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            You don't have any orders yet.
+        </div>
+    }
+</div>
+
+<style>
+    .badge {
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+
+    .badge-success {
+        background-color: #28a745;
+    }
+
+    .badge-warning {
+        background-color: #ffc107;
+        color: #000;
+    }
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .card-header {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+    .table th {
+        border-top: none;
+    }
+</style> 

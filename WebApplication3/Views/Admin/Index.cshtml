@@ -1,0 +1,128 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+    
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Pending Orders</h5>
+                    <h2 class="display-4">@ViewBag.PendingOrdersCount</h2>
+                    <p class="card-text">Orders awaiting processing</p>
+                    <a asp-action="Orders" class="btn btn-outline-light">View Orders</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Completed Orders</h5>
+                    <h2 class="display-4">@ViewBag.CompletedOrdersCount</h2>
+                    <p class="card-text">Successfully fulfilled orders</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card bg-info text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Products</h5>
+                    <h2 class="display-4">@ViewBag.ProductCount</h2>
+                    <p class="card-text">Products in inventory</p>
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-outline-light">Manage Products</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card bg-warning text-dark">
+                <div class="card-body">
+                    <h5 class="card-title">Total Revenue</h5>
+                    <h2 class="display-4">$@ViewBag.TotalRevenue.ToString("0.00")</h2>
+                    <p class="card-text">From completed orders</p>
+                    <a asp-action="Revenue" class="btn btn-outline-dark">View Revenue</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="list-group">
+                        <a asp-action="Orders" class="list-group-item list-group-item-action">
+                            <i class="fa fa-list me-2"></i> View All Orders
+                        </a>
+                        <a asp-controller="Product" asp-action="Create" class="list-group-item list-group-item-action">
+                            <i class="fa fa-plus me-2"></i> Add New Product
+                        </a>
+                        <a asp-action="Revenue" class="list-group-item list-group-item-action">
+                            <i class="fa fa-chart-line me-2"></i> View Revenue Reports
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">System Information</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Total Users:</strong> @ViewBag.UserCount</p>
+                    <p><strong>Server Time:</strong> @DateTime.Now.ToString("f")</p>
+                    <p><strong>System Status:</strong> <span class="badge bg-success">Online</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+    .card-header {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .badge {
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+
+    .badge-success {
+        background-color: #28a745;
+    }
+
+    .badge-warning {
+        background-color: #ffc107;
+        color: #000;
+    }
+
+    .btn {
+        border-radius: 5px;
+        padding: 8px 16px;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+    .table th {
+        border-top: none;
+    }
+</style> 
