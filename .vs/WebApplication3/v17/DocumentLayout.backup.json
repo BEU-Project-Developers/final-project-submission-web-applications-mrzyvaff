@@ -11,6 +11,62 @@
       "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\migrations\\20250529183229_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\migrations\\20250529183229_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|c:\\users\\asus\\onedrive\\desktop\\webapplication3\\webapplication3\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8E56FA4-0BB0-470F-9A8A-90E67CEBA493}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,44 +86,44 @@
       "DocumentGroups": [
         {
           "DockedHeight": 76,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwKoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\ProfileViewModel.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T18:39:53.146Z",
+              "WhenOpened": "2025-06-01T13:25:10.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\OrderViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\OrderViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\OrderViewModel.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\OrderViewModel.cs",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:40:29.395Z"
+              "WhenOpened": "2025-06-01T14:04:59.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\CartItem.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T18:04:32.368Z"
+              "WhenOpened": "2025-06-01T14:02:37.383Z"
             },
             {
               "$type": "Document",
@@ -85,13 +133,159 @@
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AboutController.cs",
               "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AboutController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\AboutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T18:03:35.001Z"
+              "WhenOpened": "2025-05-29T18:03:35.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T18:39:53.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:05:04.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:36:49.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:36:15.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:36:22.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:18:21.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:36:06.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:03:51.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:04:17.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T13:37:00.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T13:36:57.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250529183229_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Migrations\\20250529183229_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Migrations\\20250529183229_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Migrations\\20250529183229_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication3\\Migrations\\20250529183229_InitialCreate.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:36:37.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Data\\ApplicationDbContext.cs",
@@ -103,27 +297,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\CartController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\CartController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\CartItem.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T18:04:17.568Z"
+              "WhenOpened": "2025-05-29T18:04:32.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGsAAAACAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T18:03:51.635Z"
+              "WhenOpened": "2025-05-31T13:40:29.395Z"
             }
           ]
         }
