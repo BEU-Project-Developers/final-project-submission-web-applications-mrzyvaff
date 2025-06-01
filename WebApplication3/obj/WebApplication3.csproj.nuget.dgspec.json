@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Downloads\\WebApplicationFLast\\WebApplicationFLast\\WebApplicationTT\\WebApplicationTT\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Downloads\\WebApplicationFLast\\WebApplicationFLast\\WebApplicationTT\\WebApplicationTT\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\WebApplicationFLast\\WebApplicationFLast\\WebApplicationTT\\WebApplicationTT\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
         "projectName": "WebApplication3",
-        "projectPath": "C:\\Users\\ASUS\\Downloads\\WebApplicationFLast\\WebApplicationFLast\\WebApplicationTT\\WebApplicationTT\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Downloads\\WebApplicationFLast\\WebApplicationFLast\\WebApplicationTT\\WebApplicationTT\\WebApplication3\\WebApplication3\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\WebApplication3\\WebApplication3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,6 +59,10 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.5, )"
             },
